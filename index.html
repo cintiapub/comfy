@@ -18,7 +18,7 @@
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
 
-     
+
     <script src="assets/js/modernizr.js"></script>
   </head>
 
@@ -55,8 +55,8 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<h3>Best of all, you will appreciate having an app that’s a joy to use. Your entire conference in your smartphone.</h3>
 					<h1>COMFY, your conference app. <br> An app platform for premium events. <br>Stay comfortable to enjoy your event, while we provide everything in your hands.</h1>
-                        
-                    <h5>Easy and <b>open source</b> App.</h5>				
+
+          <h5><b>Easy to use</b> and <b>open source</b> App.</h5>
 				</div>
 				<div class="col-lg-8 col-lg-offset-2 himg">
 					<img src="assets/img/phone.png" class="img-responsive">
@@ -72,28 +72,28 @@
 	 	<div class="container">
  			<div class="row centered">
  				<div class="col-md-4">
- 					<i class="fa fa-heart-o"></i>
- 					<h4>Employee Engagement</h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+ 					<i class="fa fa-calendar"></i>
+ 					<h4>Interactive schedule</h4>
+ 					<p>Get your atendees to know every talk, speaker and room with our interactive live schedule, where they can add the talks they are planning to attend to their own schedule, and see all parallel talks simultaneously.</p>
  					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
  				</div>
  				<div class="col-md-4">
- 					<i class="fa fa-flask"></i>
+ 					<i class="fa fa-comments-o"></i>
  					<h4>Live polling</h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+ 					<p>Broadcast updates, send quick feedback forms for atendees to rate, comment and discuss about the talks they have just seen. Get to know how many people plan to attend each talk so that you can keep track of your venue's physical space.</p>
  					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
  				</div>
  				<div class="col-md-4">
  					<i class="fa fa-trophy"></i>
  					<h4>Quality, Control and Security</h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+ 					<p>We are very committed with providing you excellent usability, 100% uptime, full control of your conference information and privacy control.</p>
  					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
- 				</div>		 				
+ 				</div>
 	 		</div>
 	 	</div><! --/container -->
 	 </div><! --/service -->
-	  
-	 
+
+
 	<!-- *****************************************************************************************************************
 	 TESTIMONIALS
 	 ***************************************************************************************************************** -->
@@ -101,7 +101,7 @@
 	 	<div class="container centered">
 	 		<div class="row">
 	 			<div class="col-lg-8 col-lg-offset-2">
-	 			<i class="fa fa-comment-o"></i>
+	 			<i class="fa fa-quote-left"></i>
 	 			<p>We all know that becoming a solid software developer is not something that happens in a day.
 However, one should not stop learning when he knows enough coding to land a good job. Coding is an exercise like running, swimming, or playing a musical instrument: if you don’t practice enough, you will get rusty. So why not combine business with pleasure and taking coding challenges as you play a videogame?</p>
 	 			<h4><br/>Tiago Garcia</h4>
@@ -110,7 +110,7 @@ However, one should not stop learning when he knows enough coding to land a good
 	 		</div><! --/row -->
 	 	</div><! --/container -->
 	 </div><! --/twrap -->
-	 
+
 	<!-- *****************************************************************************************************************
 	 FOOTER
 	 ***************************************************************************************************************** -->
@@ -121,8 +121,7 @@ However, one should not stop learning when he knows enough coding to land a good
 		 			<h4>About</h4>
 		 			<div class="hline-w"></div>
 		 			<p>COMFY, an app platform for premium events. <br>
-Stay comfortable to enjoy your event, while we provide everything in your hands. Best of all, you will appreciate having an app that’s a joy and easy to use. 
-</p>
+Stay comfortable to enjoy your event, while we provide everything in your hands. Best of all, you will appreciate having an app that’s a joy and easy to use.</p>
 		 		</div>
 		 		<div class="col-lg-4">
 		 			<h4>Social Links</h4>
@@ -138,16 +137,16 @@ Stay comfortable to enjoy your event, while we provide everything in your hands.
 		 			<h4>Address</h4>
 		 			<div class="hline-w"></div>
 		 			<p>
-		 				1300 Market St<br/>
-		 				94107, San Francisco, CA<br/>
+		 				100 Market St<br/>
+		 				San Francisco, CA 94107<br/>
 		 				United States<br/>
 		 			</p>
 		 		</div>
-		 	
+
 		 	</div><! --/row -->
 	 	</div><! --/container -->
 	 </div><! --/footerwrap -->
-	 
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -168,11 +167,11 @@ Stay comfortable to enjoy your event, while we provide everything in your hands.
 	var $container = $('.portfolio'),
 		$items = $container.find('.portfolio-item'),
 		portfolioLayout = 'fitRows';
-		
+
 		if( $container.hasClass('portfolio-centered') ) {
 			portfolioLayout = 'masonry';
 		}
-				
+
 		$container.isotope({
 			filter: '*',
 			animationEngine: 'best-available',
@@ -185,12 +184,12 @@ Stay comfortable to enjoy your event, while we provide everything in your hands.
 		masonry: {
 		}
 		}, refreshWaypoints());
-		
+
 		function refreshWaypoints() {
 			setTimeout(function() {
-			}, 1000);   
+			}, 1000);
 		}
-				
+
 		$('nav.portfolio-filter ul a').on('click', function() {
 				var selector = $(this).attr('data-filter');
 				$container.isotope({ filter: selector }, refreshWaypoints());
@@ -198,11 +197,11 @@ Stay comfortable to enjoy your event, while we provide everything in your hands.
 				$(this).addClass('active');
 				return false;
 		});
-		
-		function getColumnNumber() { 
-			var winWidth = $(window).width(), 
+
+		function getColumnNumber() {
+			var winWidth = $(window).width(),
 			columnNumber = 1;
-		
+
 			if (winWidth > 1200) {
 				columnNumber = 5;
 			} else if (winWidth > 950) {
@@ -215,31 +214,31 @@ Stay comfortable to enjoy your event, while we provide everything in your hands.
 				columnNumber = 1;
 			}
 				return columnNumber;
-			}       
-			
+			}
+
 			function setColumns() {
-				var winWidth = $(window).width(), 
-				columnNumber = getColumnNumber(), 
+				var winWidth = $(window).width(),
+				columnNumber = getColumnNumber(),
 				itemWidth = Math.floor(winWidth / columnNumber);
-				
-				$container.find('.portfolio-item').each(function() { 
-					$(this).css( { 
-					width : itemWidth + 'px' 
+
+				$container.find('.portfolio-item').each(function() {
+					$(this).css( {
+					width : itemWidth + 'px'
 				});
 			});
 		}
-		
-		function setPortfolio() { 
+
+		function setPortfolio() {
 			setColumns();
 			$container.isotope('reLayout');
 		}
-			
-		$container.imagesLoaded(function () { 
+
+		$container.imagesLoaded(function () {
 			setPortfolio();
 		});
-		
-		$(window).on('resize', function () { 
-		setPortfolio();          
+
+		$(window).on('resize', function () {
+		setPortfolio();
 	});
 })(jQuery);
 </script>
