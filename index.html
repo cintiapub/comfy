@@ -1,246 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+<!--[if lte IE 9]><html class="no-js is-ie"><![endif]-->
+<!--[if gt IE 8]><!--><html class=no-js><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Comfy app">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Comfy</title>
+	
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+	<title>Comfy</title>
+	<link rel=stylesheet href="css/main.css">
+	<!--[if lte IE 8]>
+	<link rel=stylesheet href="css/ie.css">
+	<![endif]-->
+		<script src="js/vendor/modernizr.js"></script>
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+		<script src="js/vendor/respond.min.js"></script>
 
+</head>
 
+<body>
+	<div class="level level-hero hero-home has-hint">
+		
 
-    <script src="assets/js/modernizr.js"></script>
-  </head>
+		<div class="hero-overlay visible-lg"></div>
 
-  <body>
+		<video loop id=bg-video class=fullscreen-video>
+            <source src="http://alvarez.is/bt/appi.webm" type="video/webm">
+			<source src="http://alvarez.is/bt/appi.mp4" type="video/mp4">
 
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">COMFY APP</a>
-        </div>
-        <div class="navbar-collapse collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+		</video>
 
-	<!-- *****************************************************************************************************************
-	 HEADERWRAP
-	 ***************************************************************************************************************** -->
-	<div id="headerwrap">
-	    <div class="container">
+		<div class="container full-height">
+			<div class=v-align-parent>
+				<div class=v-center>
+					<div class="row">
+						<div class="col-xs-10 col-sm-6">
+							<h1 class="mb-10 heading">Comfy<span> Your Conference App</span></h1>
+							<div class="subheading mb-20"> Best of all, your attendees will appreciate <br class=hidden-xs>having an app that’s a joy to use. </div>
+						</div>
+					</div>
+					<div>
+						<a class="btn btn-prepend" href="about.html">
+							<i class="prepended icon-append-iphone"></i>Learn More
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class=hint-arrow></div>
+		</div>
+	</div>
+
+	<div class=level>
+
+		<div class="container mb-100 xs-mb-40">
+			<div class=row>
+				<div class="col-sm-5 col-md-4 col-md-offset-2 col-sm-offset-1">
+					<h1 class="mb-10 xs-mb-10 heading color-dark heading-bordered">engage<br class=hidden-xs> Now</h1>
+				</div>
+				<div class="col-sm-5 col-sm-offset-1">
+					<h2 class="w-300 color-dark mb-10 xs-mb-10">Get connected and enjoy the conference!</h2>
+					<p class="xs-mw">A mobile conference app that will help attendees to make the most of their experience during the event. Use the <strong>QR Code</strong> provided in your badge to add talks, people and interact during the event. Easy peasy.
+				</div>
+			</div>
+		</div>
+
+		<img src="img/screens.png" alt class="mb-80 hidden-xs iphone-inline">
+
+		<div class=container>
+			<div class="row mb-90 xs-mb-0">
+
+				<div class="col-sm-1 col-sm-offset-2">
+					<i class="icon icon-check"></i>
+				</div>
+				<div class="col-sm-3">
+					<h3 class="mb-15">Interactive schedule</h3>
+					<p class="smaller xs-mb-40 xs-mw">Add talks, people and download files. You can create your personal agenda. 
+				</div>
+
+				<div class="col-sm-1">
+					<i class="icon icon-calendar"></i>
+				</div>
+				<div class="col-sm-3">
+					<h3 class="mb-15">Post-conference</h3>
+					<p class="smaller xs-mb-40 xs-mw">Discover all the events, parties and meetups after the event. Get in touch.
+				</div>
+
+			</div>
+
+			<div class=row>
+
+				<div class="col-sm-1 col-sm-offset-2">
+					<i class="icon icon-user"></i>
+				</div>
+				<div class="col-sm-3">
+					<h3 class="mb-15">Increase your Network</h3>
+					<p class="smaller xs-mb-40 xs-mw">Connect and chat with attendees, speakers and companies. Exchange your virtual business card.
+				</div>
+
+				<div class="col-sm-1">
+					<i class="icon icon-clock"></i>
+				</div>
+				<div class="col-sm-3">
+					<h3 class="mb-15">Up to date</h3>
+					<p class="smaller xs-mb-40 xs-mw">Alerts and notifications on time. You won't miss a talk or event. Just check your inbox.
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="level level-img-right">
+
+		<div class="container xs-mb-30">
+			<img class=img-right-sprite src="img/solution.jpg" alt>
+			<div class="row mb-60 xs-mb-20">
+				<div class="col-sm-6 col-lg-offset-1 col-lg-5">
+					<h1 class="mb-20 xs-mb-10 heading color-dark heading-bordered xl-heading-outdent">Get Comfy</h1>
+					<h2 class="w-300 color-dark mb-10">All what you want in your phone</h2>
+					<p class=xs-mw>Now you have everything it on your fingertips.
+				</div>
+			</div>
+
+		<div class="visible-xs xs-mw xs-mb-40">
+			<img src="img/v2/iphone-mobile.min.png" alt>
+		</div>
+
+			<div class="row mb-60 xs-mb-20">
+				<div class="col-sm-1 col-lg-offset-1">
+					<i class="icon icon-globe"></i>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<h3 class="mb-15">Integration</h3>
+					<p class="smaller xs-mw">Link your accounts and open Comfy in multiple devices.
+				</div>
+			</div>
+
+			<div class="row mb-60 xs-mb-20">
+				<div class="col-sm-1 col-lg-offset-1">
+					<i class="icon icon-eye"></i>
+				</div>
+				<div class="col-sm-4 col-md-3">
+					<h3 class="mb-15">Privacy</h3>
+					<p class="smaller xs-mw">Define your preferences and set it in your way. 
+				</div>
+			</div>
 			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<h3>Best of all, you will appreciate having an app that’s a joy to use. Your entire conference in your smartphone.</h3>
-					<h1>COMFY, your conference app. <br> An app platform for premium events. <br>Stay comfortable to enjoy your event, while we provide everything in your hands.</h1>
-
-          <h5><b>Easy to use</b> and <b>open source</b> App.</h5>
+				<div class="col-sm-1 col-lg-offset-1">
+					<i class="icon icon-bubble"></i>
 				</div>
-				<div class="col-lg-8 col-lg-offset-2 himg">
-					<img src="assets/img/phone.png" class="img-responsive">
+				<div class="col-sm-4 col-md-3">
+					<h3 class="mb-15">Social Integration</h3>
+					<p class="smaller xs-mw">Build your Network, share experiences.
 				</div>
-			</div><!-- /row -->
-	    </div> <!-- /container -->
-	</div><!-- /headerwrap -->
+			</div>
+		</div>
 
-	<!-- *****************************************************************************************************************
-	 SERVICE LOGOS
-	 ***************************************************************************************************************** -->
-	 <div id="service">
-	 	<div class="container">
- 			<div class="row centered">
- 				<div class="col-md-4">
- 					<i class="fa fa-calendar"></i>
- 					<h4>Interactive schedule</h4>
- 					<p>Get your atendees to know every talk, speaker and room with our interactive live schedule, where they can add the talks they are planning to attend to their own schedule, and see all parallel talks simultaneously.</p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
- 				</div>
- 				<div class="col-md-4">
- 					<i class="fa fa-comments-o"></i>
- 					<h4>Live polling</h4>
- 					<p>Broadcast updates, send quick feedback forms for atendees to rate, comment and discuss about the talks they have just seen. Get to know how many people plan to attend each talk so that you can keep track of your venue's physical space.</p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
- 				</div>
- 				<div class="col-md-4">
- 					<i class="fa fa-trophy"></i>
- 					<h4>Quality, Control and Security</h4>
- 					<p>We are very committed with providing you excellent usability, 100% uptime, full control of your conference information and privacy control.</p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
- 				</div>
-	 		</div>
-	 	</div><! --/container -->
-	 </div><! --/service -->
+	</div>
 
+	<div class="level level-outro text-center">
+		<div class=container>
 
-	<!-- *****************************************************************************************************************
-	 TESTIMONIALS
-	 ***************************************************************************************************************** -->
-	 <div id="twrap">
-	 	<div class="container centered">
-	 		<div class="row">
-	 			<div class="col-lg-8 col-lg-offset-2">
-	 			<i class="fa fa-quote-left"></i>
-	 			<p>We all know that becoming a solid software developer is not something that happens in a day.
-However, one should not stop learning when he knows enough coding to land a good job. Coding is an exercise like running, swimming, or playing a musical instrument: if you don’t practice enough, you will get rusty. So why not combine business with pleasure and taking coding challenges as you play a videogame?</p>
-	 			<h4><br/>Tiago Garcia</h4>
-	 			<p>CEO - COMFY</p>
-	 			</div>
-	 		</div><! --/row -->
-	 	</div><! --/container -->
-	 </div><! --/twrap -->
+			<form class=contact method=get action="/" accept-charset="UTF-8">
+				<div class="h2 mb-20">Available for IOS. Get connected!<br class=visible-xs-block> </div>				
+			</form>
+		</div>
 
-	<!-- *****************************************************************************************************************
-	 FOOTER
-	 ***************************************************************************************************************** -->
-	 <div id="footerwrap">
-	 	<div class="container">
-		 	<div class="row">
-		 		<div class="col-lg-4">
-		 			<h4>About</h4>
-		 			<div class="hline-w"></div>
-		 			<p>COMFY, an app platform for premium events. <br>
-Stay comfortable to enjoy your event, while we provide everything in your hands. Best of all, you will appreciate having an app that’s a joy and easy to use.</p>
-		 		</div>
-		 		<div class="col-lg-4">
-		 			<h4>Social Links</h4>
-		 			<div class="hline-w"></div>
-		 			<p>
-		 				<a href="#"><i class="fa fa-facebook"></i></a>
-		 				<a href="#"><i class="fa fa-twitter"></i></a>
-		 				<a href="#"><i class="fa fa-instagram"></i></a>
-		 				<a href="#"><i class="fa fa-tumblr"></i></a>
-		 			</p>
-		 		</div>
-		 		<div class="col-lg-4">
-		 			<h4>Address</h4>
-		 			<div class="hline-w"></div>
-		 			<p>
-		 				100 Market St<br/>
-		 				San Francisco, CA 94107<br/>
-		 				United States<br/>
-		 			</p>
-		 		</div>
+	</div>
+	<div class="footer text-center">
+	<p class="fmenu">
+		<a href="index.html">HOME</a> | <a href="about.html">UX Process</a>
+	</p>
 
-		 	</div><! --/row -->
-	 	</div><! --/container -->
-	 </div><! --/footerwrap -->
+	</div>		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/retina-1.1.0.js"></script>
-	<script src="assets/js/jquery.hoverdir.js"></script>
-	<script src="assets/js/jquery.hoverex.min.js"></script>
-	<script src="assets/js/jquery.prettyPhoto.js"></script>
-  	<script src="assets/js/jquery.isotope.min.js"></script>
-  	<script src="assets/js/custom.js"></script>
-
-
-    <script>
-// Portfolio
-(function($) {
-	"use strict";
-	var $container = $('.portfolio'),
-		$items = $container.find('.portfolio-item'),
-		portfolioLayout = 'fitRows';
-
-		if( $container.hasClass('portfolio-centered') ) {
-			portfolioLayout = 'masonry';
-		}
-
-		$container.isotope({
-			filter: '*',
-			animationEngine: 'best-available',
-			layoutMode: portfolioLayout,
-			animationOptions: {
-			duration: 750,
-			easing: 'linear',
-			queue: false
-		},
-		masonry: {
-		}
-		}, refreshWaypoints());
-
-		function refreshWaypoints() {
-			setTimeout(function() {
-			}, 1000);
-		}
-
-		$('nav.portfolio-filter ul a').on('click', function() {
-				var selector = $(this).attr('data-filter');
-				$container.isotope({ filter: selector }, refreshWaypoints());
-				$('nav.portfolio-filter ul a').removeClass('active');
-				$(this).addClass('active');
-				return false;
-		});
-
-		function getColumnNumber() {
-			var winWidth = $(window).width(),
-			columnNumber = 1;
-
-			if (winWidth > 1200) {
-				columnNumber = 5;
-			} else if (winWidth > 950) {
-				columnNumber = 4;
-			} else if (winWidth > 600) {
-				columnNumber = 3;
-			} else if (winWidth > 400) {
-				columnNumber = 2;
-			} else if (winWidth > 250) {
-				columnNumber = 1;
-			}
-				return columnNumber;
-			}
-
-			function setColumns() {
-				var winWidth = $(window).width(),
-				columnNumber = getColumnNumber(),
-				itemWidth = Math.floor(winWidth / columnNumber);
-
-				$container.find('.portfolio-item').each(function() {
-					$(this).css( {
-					width : itemWidth + 'px'
-				});
-			});
-		}
-
-		function setPortfolio() {
-			setColumns();
-			$container.isotope('reLayout');
-		}
-
-		$container.imagesLoaded(function () {
-			setPortfolio();
-		});
-
-		$(window).on('resize', function () {
-		setPortfolio();
-	});
-})(jQuery);
-</script>
-  </body>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/dropdown.js"></script>
+	<script src="js/modal.js"></script>
+	<script src="js/main.js"></script>
+	<!-- //-end- concat_js -->
+</body>
 </html>
